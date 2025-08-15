@@ -1,0 +1,130 @@
+.title-page {
+  font-size: 4rem;
+  color: #023e73;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.section__total-question {
+  width: 200px;
+  height: 100px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.total__title,
+.total__number {
+  padding: 8px 15px;
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.total__title {
+  background: #023e73d7;
+  color: #fff;
+}
+
+.pie-chart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* =======================table================== */
+
+.table-container {
+  width: 100%;
+  margin: auto;
+  max-height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse; /* Kết hợp các borders */
+  background-color: #f9f9ff;
+  /* border-radius: 15px; */
+  table-layout: fixed; /* Đảm bảo các cột có chiều rộng bằng nhau */
+}
+
+/* Đảm bảo padding đồng nhất giữa th và td */
+.data-table th,
+.data-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #d1e7ff;
+  box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+}
+
+.data-table th {
+  font-size: 1.2rem;
+  background-color: #b8e0ff;
+  color: #023e73;
+  font-weight: bold;
+}
+
+.data-table tbody td {
+  font-size: 1.1rem;
+  background-color: #fff;
+}
+
+/* Sticky Header */
+.data-table thead {
+  display: table-header-group; /* Đảm bảo thead ở trên cùng */
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Đảm bảo thead luôn ở trên cùng */
+  background-color: #b8e0ff;
+  color: #023e73;
+  box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+}
+
+/* Chỉnh sửa thanh cuộn */
+.table-body-scroll {
+  max-height: 100%; /* Chiều cao tối đa cho nội dung */
+  overflow-y: auto; /* Thanh cuộn dọc */
+  overflow-x: hidden; /* Không cần cuộn ngang */
+  background-color: #fff;
+}
+
+/* Chỉnh sửa thanh cuộn */
+.table-body-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-body-scroll::-webkit-scrollbar-thumb {
+  background-color: #33aaff;
+  border-radius: 5px;
+}
+
+.table-body-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #4cd3d3;
+}
+
+/* Tạo hiệu ứng hover cho các dòng */
+.data-table tbody tr:hover {
+  background-color: #d1e7ff;
+  cursor: pointer;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background-color: #e8f4ff;
+}
+
+.data-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}

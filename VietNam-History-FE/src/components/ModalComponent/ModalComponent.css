@@ -1,0 +1,58 @@
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    position: relative;
+}
+
+.modal-header {
+    color:#003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.modal-body {
+    margin-bottom: 15px;
+}
+
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.modal-title{
+    font-size: 25px;
+}
+
+.modal-footer .modal-button {
+    margin-left: 20px; /* Khoảng cách giữa các nút */
+}
+
+.modal-footer .modal-button:first-child {
+    margin-left: 0; /* Đảm bảo nút đầu tiên không có margin */
+}

@@ -1,0 +1,143 @@
+/* QuestionBox.css */
+
+.question-answer-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f5ff;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.question-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.title-and-tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question_title {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  color: #023e73;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.tag-item {
+  background-color: #c5e3fc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.question-details {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.detail-item {
+  margin-bottom: 5px;
+}
+
+.like-icon {
+  font-size: 14px;
+  color: #000;
+  margin-left: 5px;
+}
+
+.date-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.date-item {
+  font-size: 14px;
+  color: #777;
+}
+
+.hidden-notice {
+  font-size: 14px;
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divider {
+  margin: 5px 0;
+  border-top: 1px solid #ccc;
+}
+
+.answer-section {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.answer-section h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #023e73;
+  margin-bottom: 10px;
+}
+
+.answer-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.answer-date-container {
+  font-size: 14px;
+  color: #777;
+  text-align: right
+}
+
+.popover-content p {
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popover-content p:hover {
+  background-color: #C5E3FC;
+}
+.answer-detail {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Giãn đều khoảng cách giữa các phần tử */
+}
+
+.answer-detail button {
+  margin-left: auto; /* Đẩy button sang phải */
+}
+
+
+
+
+
+

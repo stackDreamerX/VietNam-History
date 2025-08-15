@@ -1,0 +1,48 @@
+/* 
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+} */
+
+.button {
+  background-color: #FFFFFF;
+  border: 1px solid #023E73;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: -70px;
+  margin-top: -35px;
+}
+
+.options {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.separator {
+  width: 1px;
+  height: 30px; 
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.optionHover {
+  background-color: #e0e0e0;
+}
+
+.optionHover:hover {
+  background-color: #e0e0e0;
+}
+
+.selectedOption {
+  background-color: #e0e0e0;
+  color: #121212;
+}

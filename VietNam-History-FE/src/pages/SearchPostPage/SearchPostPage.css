@@ -1,0 +1,69 @@
+.question-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .question-page-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .question-page-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .question-page-content {
+    padding: 10px;
+  }
+  
+  .question-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-item {
+    background-color: #FFFDF0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .question-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .question-item-excerpt {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .question-link {
+    text-decoration: none;
+  }
+  
+  .no-results-message {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .tags-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Đặt các item trong danh sách nằm ngang */
+    flex-wrap: wrap; /* Cho phép các item xuống dòng khi không còn đủ không gian */
+  }
+  

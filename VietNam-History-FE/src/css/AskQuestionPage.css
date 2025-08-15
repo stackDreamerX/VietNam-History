@@ -1,0 +1,108 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; 
+    text-align: center;
+  }
+  
+ 
+  .title {
+    color: #023E73;      
+    font-size: 36px;    
+    font-weight: bold;    
+  }
+  
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px; 
+    text-align: left; 
+    margin-left: 120px;
+  }
+  
+
+  .label {
+    font-size: 24px;    
+    color: #000000;   
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .asterisk {
+    color: red;
+    font-size: 28px;
+  }
+  
+  .description {
+    font-size: 16px;      
+    color: #023E73;   
+    font-style: italic;  
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    max-width: 1000px;
+    margin-bottom: 10px;
+  }
+  
+  .input-field:focus {
+    border-color: #023E73;
+    outline: none;
+  }
+
+  .editor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px; 
+    text-align: left; 
+    max-width: 1000px;
+    margin-bottom: 10px;
+  }
+
+.ql-toolbar {
+    background-color: #c8c8c8;
+  }
+  
+.ql-toolbar .ql-formats button:hover {
+    background-color: #949494;
+  }
+
+.ql-container {
+    min-height: 200px;
+    border: 1px solid #ccc;
+  }
+
+  .submit-button {
+    background-color: #023E73;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1000;
+  }
+  
+  .submit-button:hover {
+    background-color: #021E54;
+  }
+  
+  
+  
+  
+  
+
+  

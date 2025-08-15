@@ -1,0 +1,46 @@
+.follower-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  height: 9rem;
+  padding: 10px;
+  gap: 20px;
+}
+
+.follower-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-interact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.follower-achievement,
+.follower-like {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+
+.cup-icon,
+.heart-icon {
+  width: 20px;
+  height: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  align-items: top;
+}
+
+.followed-time {
+  font-size: 1rem;
+  color: #666666;
+}

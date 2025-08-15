@@ -1,0 +1,4 @@
+.user-card {
+  max-width: 1000px; /* Tùy chỉnh chiều rộng tối đa */
+  width: 500px; /* Đảm bảo card chiếm toàn bộ chiều rộng cột */
+}

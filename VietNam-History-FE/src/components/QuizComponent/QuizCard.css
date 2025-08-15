@@ -1,0 +1,118 @@
+.quiz-card {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden !important;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12) !important;
+}
+
+.quiz-card .ant-card-body {
+  padding: 20px !important;
+}
+
+.quiz-card .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.quiz-card .quiz-title {
+  margin-bottom: 0 !important;
+  color: #1e293b !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.quiz-card .edit-button {
+  margin-left: 8px;
+  transition: all 0.2s ease;
+}
+
+.quiz-card .edit-button:hover {
+  color: #1890ff;
+  transform: scale(1.1);
+}
+
+.quiz-card .quiz-description {
+  color: #64748b !important;
+  margin-bottom: 16px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.quiz-card .tag-container {
+  margin-bottom: 16px;
+}
+
+.quiz-card .tag {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
+}
+
+.quiz-card .tag:hover {
+  transform: scale(1.05);
+}
+
+.quiz-card .info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 16px;
+}
+
+.quiz-card .info-item {
+  display: flex;
+  align-items: center;
+}
+
+.quiz-card .info-item .icon {
+  margin-right: 6px;
+  color: #64748b;
+}
+
+.quiz-card .progress-section {
+  margin-bottom: 16px;
+}
+
+.quiz-card .start-button {
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.quiz-card .start-button:hover {
+  transform: scale(1.02);
+}
+
+/* Dark mode support */
+.dark .quiz-card {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+.dark .quiz-card .quiz-title {
+  color: #e2e8f0 !important;
+}
+
+.dark .quiz-card .quiz-description {
+  color: #94a3b8 !important;
+}
+
+.dark .quiz-card .info-section {
+  border-color: #334155 !important;
+} 

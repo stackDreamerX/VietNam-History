@@ -1,0 +1,37 @@
+.title-profile {
+    color: #003366;
+}
+
+.card-profile {
+    border-radius: 10px;
+    border: 1px solid #003366;
+}
+
+.row-2 {
+    height: 70px;
+}
+
+
+
+.avatar-container {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+}
+
+.avatar-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -90px;
+    margin-left: 13px;
+}
+
+.nav-link.active {
+    background-color: #003366 !important; 
+    color: white !important; 
+  }
+

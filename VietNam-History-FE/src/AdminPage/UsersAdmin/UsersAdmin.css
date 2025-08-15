@@ -1,0 +1,32 @@
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    z-index: 100;
+  }
+  
+  .dropdown-menu button {
+    padding: 8px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #f1f1f1;
+  }
+  

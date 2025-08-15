@@ -1,0 +1,79 @@
+.dropdown-item {
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.quiz-dropdown {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 8px 4px;
+  width: 170px;
+  z-index: 1000;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  animation: fadeIn 0.2s ease-in-out;
+  border: 1px solid #f0f0f0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-toggle-icon {
+  font-size: 12px;
+  margin-left: 5px;
+  transition: transform 0.2s;
+}
+
+.dropdown-open .dropdown-toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* Active navigation styles */
+.nav-link.active {
+  position: relative;
+  transition: all 0.3s ease;
+  background-color: transparent !important; /* Override Bootstrap's background color */
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 2px;
+  background-color: #333333; /* Darker underline */
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover.active::after {
+  width: 40px;
+}
+
+.dropdown-item.active {
+  background-color: transparent !important;
+}
+
+/* Override Bootstrap's nav-underline default active styles */
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+  background-color: transparent !important;
+  font-weight: 500;
+}

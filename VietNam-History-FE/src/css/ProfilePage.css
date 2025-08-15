@@ -1,0 +1,55 @@
+.title-profile {
+  margin-top: 50px;
+  color: #000000;
+}
+
+.card-profile {
+  border-radius: 10px;
+  border: 1px solid #edbe00;
+}
+
+.row-2 {
+  height: 70px;
+}
+
+.avatar-container {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+.avatar-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: -90px;
+  margin-left: 13px;
+}
+
+.nav-link.active {
+  background-color: #EDBE00 !important;
+  color: black !important;
+}
+
+.custom-tabs .nav-link {
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.custom-tabs .nav-link:hover {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.custom-tabs .nav-link.active {
+  color: #EDBE00;
+  border-bottom: 3px solid #EDBE00;
+  background-color: transparent;
+  font-weight: 600;
+}

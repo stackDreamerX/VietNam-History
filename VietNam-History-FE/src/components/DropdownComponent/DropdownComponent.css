@@ -1,0 +1,12 @@
+.dropdown .btn {
+  display: flex;
+  justify-content: space-between; /* Căn giữa nội dung theo chiều ngang */
+  align-items: center; /* Căn giữa nội dung theo chiều dọc */
+  gap: 8px; /* Khoảng cách giữa nội dung và icon toggle */
+  color: #023e73;
+  width: 20rem;
+}
+
+.border {
+  border: 1px solid #023e73 !important;
+}

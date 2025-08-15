@@ -1,0 +1,18 @@
+.report-button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: gray;
+  color: white;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}

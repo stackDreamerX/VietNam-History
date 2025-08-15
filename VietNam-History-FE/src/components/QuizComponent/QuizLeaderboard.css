@@ -1,0 +1,37 @@
+.leaderboard-card {
+  margin: 24px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-card .ant-table-thead th {
+  background-color: #f0f2f5;
+  font-weight: bold;
+}
+
+.leaderboard-card .highlight-row {
+  background-color: rgba(24, 144, 255, 0.1);
+}
+
+.quiz-info {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.leaderboard-card .ant-table-row:hover > td {
+  background-color: rgba(24, 144, 255, 0.05);
+}
+
+/* Medal colors for top 3 positions */
+.rank-1 {
+  color: #f5bf42 !important;
+}
+
+.rank-2 {
+  color: #a0a0a0 !important;
+}
+
+.rank-3 {
+  color: #cd7f32 !important;
+} 
